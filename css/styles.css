@@ -1,0 +1,220 @@
+:root {
+    --main-text-color: #212121;
+    --main-2-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --bg-hd-ft-color: #2F303A;
+    --bg-accent-color: #F5F4FA;
+}
+
+.body {
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    background-color: var(--white-color)
+}
+
+a {text-decoration: none;}
+ul {list-style: none;}
+button {border: none;}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* ! HEADER ! */
+
+/* LOGO */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--accent-color)
+}
+.logo .span-h {
+    color: var(--main-text-color);
+}
+.logo .span-f {
+    color: var(--white-color);
+}
+
+/* HOVER AND FOCUS IN HEADER */
+
+.header .site-nav .nav-link:hover,
+.header .site-nav .nav-link:focus {
+    color: var(--accent-color)
+}
+
+.header .contact-link:hover,
+.header .contact-link:focus {
+    color:var(--accent-color)
+}
+
+/* COLOR <a> IN HEADER */
+.nav-link.current {
+    color: var(--accent-color);
+}
+.nav-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+.contact-link {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--main-2-text-color)
+}
+
+/* INDEX-MAIN */
+
+/* SECTION-1 */
+
+.hero {
+    background-color: var(--bg-hd-ft-color);
+}
+.title-hero {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--white-color);
+}
+.button-hero {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: var(--white-color);
+            background-color: var(--accent-color);
+            border-radius: 4px;
+}
+
+/* SECTION-2 */
+
+.title-benefit {
+        font-size: 14px;
+        line-height: 1.14;
+}
+.text-benefit {
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--main-2-text-color);
+}
+
+/* SECTION-3 */
+
+.section-title {
+        font-size: 36px;
+        line-height: 1.16;
+}
+
+/* SECTION-4 */
+
+.section-team {
+    background-color: var(--bg-accent-color);
+}
+.team-card {
+    width: 270px;
+        height: 368px;
+    background-color: var(--white-color);
+}
+.title-card {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+}
+.text-card {
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        color: var(--main-2-text-color);
+}
+
+/* PORTFOLIO-MAIN */
+                                                              
+/* FILTERS */
+
+.pointer {
+    cursor: pointer;
+}
+.link-filter:hover,
+.link-filter:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.link-filter {
+    background-color: var(--bg-accent-color);
+}
+.link-filter.active {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* PROJECTS */
+
+.project-list {
+    background-color: #EEEEEE;
+}
+.title-project {
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--main-text-color);
+}
+.text-project {
+        font-size: 16px;
+        line-height: 1.87;
+        color: var(--main-2-text-color);
+}
+
+/* ! FOOTER ! */
+
+.footer {
+    background-color: var(--bg-hd-ft-color);
+}
+
+.footer-address-link {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--white-color)
+}
+.link-footer {
+        font-size: 14px;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+}
+.address .link-footer:hover,
+.address .link-footer:focus {
+    color:var(--accent-color)
+}
+.address .link-footer:hover,
+.address .link-footer:focus {
+    color:var(--accent-color)
+}
+.address {
+    font-style: normal;
+}
