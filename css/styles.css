@@ -378,12 +378,12 @@ body {
 .footer-address-list:not(:last-child) {
     margin-bottom: 10px;
 }
-.address .link-footer:hover,
-.address .link-footer:focus {
+.address .footer-link:hover,
+.address .footer-link:focus {
     color:var(--accent-color)
 }
-.address .link-footer:hover,
-.address .link-footer:focus {
+.address .footer-link:hover,
+.address .footer-link:focus {
     color:var(--accent-color)
 }
 .address {
