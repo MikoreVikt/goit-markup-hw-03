@@ -8,6 +8,14 @@ html {
     box-sizing: inherit;
 }
 
+:root {
+    --main-text-color: #212121;
+    --main-2-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --bg-hd-ft-color: #2F303A;
+    --bg-accent-color: #F5F4FA;
+}
 
 h1,
 h2,
@@ -30,16 +38,6 @@ img {
 a {text-decoration: none;}
 ul {list-style: none;}
 button {border: none;}
-
-
-:root {
-    --main-text-color: #212121;
-    --main-2-text-color: #757575;
-    --accent-color: #2196F3;
-    --white-color: #FFFFFF;
-    --bg-hd-ft-color: #2F303A;
-    --bg-accent-color: #F5F4FA;
-}
 
 body {
     font-family: 'Roboto';
